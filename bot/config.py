@@ -1,20 +1,20 @@
 class config:
-    BOT_TOKEN = "1724056700:AAGHqRnq68ZfeqcxOzF14Qkmia_e0fYc2vQ"
+    BOT_TOKEN = "1724056700:AAGHqRnq68Zf1951221859:AAGyjnMbIDt3KFWDDZkZzrCFLAJ-MG9cvAI"
     APP_ID = "3551539"
     API_HASH = "a73df1c7f1849be0bb402811f6ffb758"
     DATABASE_URL = "postgres://azmrelzifcokix:6429bfb88b706efaccbbba2128434bad14cfd5d312bbb51b104f54e7bfde1d2f@ec2-54-209-43-223.compute-1.amazonaws.com:5432/dc4879npb5gild"
     SUDO_USERS = "1099021840" # Sepearted by space.
     SUPPORT_CHAT_LINK = ""
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
+    G_DRIVE_CLIENT_ID = "432301909149-df9ulo7gjrcoolsd4s4rn40lrrobg8l8.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "XCtlBlDGzc52aF92IKtCGtaO"
 
 
 class BotCommands:
   Download = ['download', 'dl']
   Authorize = ['auth', 'authorize']
   SetFolder = ['setfolder', 'setfl']
-  Revoke = ['revoke']
+  Logout = ['revoke']
   Clone = ['copy', 'clone']
   Delete = ['delete', 'del']
   EmptyTrash = ['emptyTrash']
@@ -38,7 +38,7 @@ class Messages:
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
         # Dont remove this ↓ if you respect developer.
-        "**Developed by @viperadnan**"
+        "**Developed by @likh0n**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
