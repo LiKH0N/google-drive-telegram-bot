@@ -4,7 +4,7 @@ class config:
     API_HASH = "a73df1c7f1849be0bb402811f6ffb758"
     DATABASE_URL = "postgres://dsdbsmnsdtmmor:267c95a5c57cee9de0159ade02ec59e07fb893b66569548acf3c666600ce9a2f@ec2-54-156-60-12.compute-1.amazonaws.com:5432/db1m5umneecbr7"
     SUDO_USERS = "1099021840" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    SUPPORT_CHAT_LINK = "t.me/likh0n"
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = "432301909149-df9ulo7gjrcoolsd4s4rn40lrrobg8l8.apps.googleusercontent.com"
     G_DRIVE_CLIENT_SECRET = "XCtlBlDGzc52aF92IKtCGtaO"
@@ -14,7 +14,7 @@ class BotCommands:
   Download = ['download', 'dl']
   Authorize = ['auth', 'authorize']
   SetFolder = ['setfolder', 'setfl']
-  Logout = ['revoke']
+  Revoke  = ['revoke']
   Clone = ['copy', 'clone']
   Delete = ['delete', 'del']
   EmptyTrash = ['emptyTrash']
